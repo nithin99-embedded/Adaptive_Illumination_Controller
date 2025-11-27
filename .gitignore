@@ -1,0 +1,83 @@
+# STM32CubeIDE / STM32 HAL Git Ignore File
+
+# Build folders
+Debug/
+Release/
+build/
+output/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+
+# CubeIDE specific
+.settings/
+.metadata/
+mxproject.xml
+stm32cubeide.project.prefs
+*.launch
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary / backup files
+*.bak
+*.tmp
+*.swp
+*~
+*.autosave
+*.swo
+*.svd
+
+# Object files / intermediate
+*.obj
+*.dep
+*.a
+*.lib
+
+# Compiler-specific cache
+*.suo
+*.idb
+*.pdb
+*.db
+*.opendb
+*.depend
+*.gcno
+*.gcda
+
+# User specific STM32CubeIDE settings
+.project
+.cproject
+
+# Log and report files
+*.log
+*.trace
+*.crf
+*.map
+*.icf
+
+# Ignore build config files
+*.launches
+*.launch
+
+# Ignore generated output files
+*.out
+*.axf
+*.lst
+*.sym
+*.dep
+*.bld
+*.exp
+
+# Ignore STM32CubeMX auto-generated backup files
+*.ioc-bak
+
+# Ignore system paths
+.idea/
+.vscode/
+*.code-workspace
