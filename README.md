@@ -81,10 +81,10 @@ Real-time system data is printed via **UART2** and viewable in Putty/TeraTerm.
 - ARR: 100 → (1 kHz / 100-step duty)  
 
 ### **EXTI Button**
-- Pin: **PA7**
+- Pin: **PA13**
 - Trigger: **Falling edge**
 - Pull-up: **Enabled**
-- NVIC: EXTI line [9:5] enabled  
+- NVIC: EXTI line [15:10] enabled  
 
 ---
 
