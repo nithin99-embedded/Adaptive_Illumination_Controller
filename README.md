@@ -56,7 +56,7 @@ Real-time system data is printed via **UART2** and viewable in Putty/TeraTerm.
 | UART TX | USB Serial Debug | **PA2 (USART2_TX)** |
 | UART RX | USB Serial Debug | **PA3 (USART2_RX)** |
 | LED Output | LED (PWM + GPIO) | **PA6 (TIM3_CH1)** |
-| Mode Button | Push Button (EXTI) | **PA13 (GPIO_EXTI13)** |
+| Mode Button | Push Button (EXTI) | **PC13 (GPIO_EXTI13)** |
 
 ---
 
@@ -81,7 +81,7 @@ Real-time system data is printed via **UART2** and viewable in Putty/TeraTerm.
 - ARR: 100 → (1 kHz / 100-step duty)  
 
 ### **EXTI Button**
-- Pin: **PA13**
+- Pin: **PC13**
 - Trigger: **Falling edge**
 - Pull-up: **Enabled**
 - NVIC: EXTI line [15:10] enabled  
